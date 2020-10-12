@@ -10,6 +10,7 @@ const JsFundamentalsDataFetching = () => {
         "http://dummy.restapiexample.com/api/v1/employees"
       );
       const responseJson = await response.json();
+        console.log("Response",responseJson);
       setFetchedData(responseJson.data);
     };
 
