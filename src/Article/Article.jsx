@@ -10,7 +10,7 @@ const Article = () => {
           <a href="mailto:kate.farley@nytimes.com">kate.farley@nytimes.com</a>)
           <br />
         </address>
-        <time datetime="2018-11-22">November 22, 2018 </time>
+        <time dateTime="2018-11-22">November 22, 2018 </time>
       </header>
 
       <p>The Statue of Liberty&rsquo;s original torch is getting a new home.</p>
@@ -41,8 +41,8 @@ const Article = () => {
 
       <p>
         Not only is the Statue of Liberty the symbol of New York City, she is
-        also a UNESCO World Heritage site under the designation of
-        <i>Outstanding Universal Value</i>.
+        also a UNESCO World Heritage site under the designation of 
+        <i> Outstanding Universal Value</i>.
       </p>
 
       <p>
