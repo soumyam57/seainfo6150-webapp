@@ -1,0 +1,9 @@
+.container {
+    list-style: none;
+    padding: 20px;
+    margin: 20px;
+    background: #a6a6a6;
+    border-radius: 5px;
+    border: 1px dashed #666;
+    box-shadow: 0 0 5px 5px #ff9999;
+}

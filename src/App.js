@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Switch, Route } from "react-router-dom";
-import ArticleList from "./ArticleList/ArticleList.jsx";
+import ArticleList from "./ArticleList/ArticleList";
 import { isEmpty } from "lodash";
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
   return isEmpty(fetchedData) ? null : (
     <div className="App">
       <Switch>
-        <Route exact path="/articlelist"><ArticleList articles={fetchedData} /></Route>
+        {<Route exact path="/articlelist"><ArticleList articles={fetchedData} /></Route>}
       </Switch>
     </div>
   );

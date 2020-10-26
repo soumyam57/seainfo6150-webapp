@@ -1,0 +1,28 @@
+.container {
+    background-image: linear-gradient(
+        to right,
+        #ff9999,
+        white 30%
+    );
+    border: 1px solid #e60000;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    position: relative;
+    box-shadow: 0 0 5px 5px #8c8c8c;
+    font-family:"Arial";
+    font-size: smaller;
+}
+
+.title {
+    font-family:"Arial";
+    color: #e60000;
+    font-size: 1.5rem;
+    margin: .5rem 0;
+}
+
+.pubDate {
+    font-family:"Arial";
+    font-weight: bold;
+    font-size: smaller;
+}
