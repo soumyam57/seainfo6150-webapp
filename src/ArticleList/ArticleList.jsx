@@ -9,9 +9,9 @@ const ArticleList = (props) => {
   if (props.articles.length) {
     displayContent = (
       <ul className={styles.container}>
-        {props.articles.map((article) => (
-          <ArticleListItem article={article} key={article.slug} />
-        ))}
+          {props.articles.map((article) => (
+            <ArticleListItem article={article} key={article.slug} />
+          ))}
       </ul>
     );
   } else {
