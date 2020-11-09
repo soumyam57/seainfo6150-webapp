@@ -10,3 +10,40 @@
   list-style-type: none;
   padding: 15px;
 }
+
+@supports (display: grid) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media screen and (min-width: 300px) {
+    .container {
+      grid-template-columns: repeat(1,1fr);
+      background: lightslategray;
+      padding: 40px;
+      gap: 40px;
+    }
+  }
+
+  @media screen and (min-width: 550px) {
+    .container {
+      grid-template-columns: repeat(2,1fr);
+      background: lightsalmon;
+      font-family: Verdana;
+      font-style: oblique;
+      padding: 25px;
+      gap: 30px;
+    }
+  }
+
+  @media (min-width: 900px) {
+    .container {
+      grid-template-columns: repeat(3, 1fr);
+      background: #999;
+      font-style: normal;
+      padding: 15px;
+      gap: 20px;
+    }
+  }
+}

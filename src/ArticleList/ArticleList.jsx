@@ -11,19 +11,22 @@ const ArticleList = (props) => {
       <ul className={styles.container}>
         {props.articles.map((article) => (
           <ArticleListItem article={article} key={article.slug} />
-        ))}
+        ))}      
       </ul>
     );
   } else {
     displayContent = <div>You have no data!</div>;
   }
 
+  console.log(displayContent)
   return (
     <div>
       {displayContent}
     </div>
   );
 };
+
+
 
 ArticleList.propTypes = {
     articles: PropTypes.array.isRequired
