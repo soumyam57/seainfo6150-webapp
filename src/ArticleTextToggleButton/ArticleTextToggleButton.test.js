@@ -7,7 +7,7 @@ function onClick(){
     isTextShowing = !isTextShowing;
 }
 
-describe("Articlelist tests", () => {
+describe("ArticleTextToggleButton tests", () => {
     it("renders correctly", () => {
     const { container } = render(<ArticleTextToggleButton  buttonText="Show more" onClick={onClick}/>);
       expect(container).toMatchSnapshot();
