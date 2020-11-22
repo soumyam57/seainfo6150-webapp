@@ -7,7 +7,7 @@ const ArticleImage = (props) => {
   return (
     <div className={styles.div}>
         <img className={styles.image} 
-            src={props.url}>
+            src={props.url} alt="">
         </img>
         <h2 className={styles.title}>{props.title}</h2>
     </div>
