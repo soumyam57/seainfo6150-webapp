@@ -17,15 +17,10 @@
   }
 }
 
-@media screen and (min-width: 800px) {
-  .container {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
 
 @media screen and (min-width: 1150px) {
   .container {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 

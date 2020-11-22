@@ -1,0 +1,15 @@
+.title {
+    color: #c00;
+    margin: 0 0 20px;
+    text-decoration-color: #c00;
+    text-decoration-line: underline;
+}
+
+.image{
+    width: 50%;
+    height:50%;
+    border-radius: 50%;
+    box-shadow:0px 10px 10px 0px grey;
+    border: 8px solid #c00;
+}
+
